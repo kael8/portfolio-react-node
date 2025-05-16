@@ -1,0 +1,59 @@
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Production build files
+/client/build
+/client/dist
+/server/dist
+/server/build
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/client/.env
+/client/.env.local
+/client/.env.development.local
+/client/.env.test.local
+/client/.env.production.local
+/server/.env
+/server/.env.local
+/server/.env.development.local
+/server/.env.test.local
+/server/.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+/server/npm-debug.log*
+/server/yarn-debug.log*
+/server/yarn-error.log*
+
+# Coverage directory
+/coverage
+/client/coverage
+/server/coverage
+
+# Cache and temp files
+.DS_Store
+.idea
+.vscode
+*.swp
+*.swo
+.cache
+/client/.cache
+/server/.cache
+
+# System files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
